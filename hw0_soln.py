@@ -158,6 +158,8 @@ def triangle(input):
 def fibonacci(input):
     first = 1
     second = 1
+    if input <= 0:
+        return 0
     if input == 1:
         return first
     if input == 2:
