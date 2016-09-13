@@ -24,3 +24,6 @@ def test_fibonacci4():
 
 def test_fibonacci20():
 	assert fibonacci(20) == 6765
+
+def test_failure():
+	assert Fail
